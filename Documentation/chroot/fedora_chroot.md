@@ -40,7 +40,7 @@ sudo mkdir /tmp/rootfs
 ```
 - **Run the following command to generate rootfs**
 ```
-sudo dnf --releasever=41 --installroot=/tmp/rootfs/ --forcearch=aarch64 --use-host-config group install core
+sudo dnf --releasever=42 --installroot=/tmp/rootfs/ --forcearch=aarch64 --use-host-config group install core
 ```
 - **Pack rootfs as tarball**
 ```
